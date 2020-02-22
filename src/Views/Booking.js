@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import NavBar from "../Components/NavBar";
 export default class Booking extends Component {
     state={
         display: false,
@@ -14,7 +15,12 @@ export default class Booking extends Component {
         return (
             <>
 
-
+                <div className="sidenav">
+                    <a href={"Dashboard"}>Home</a>
+                    <a href={"Booking"}>Bookings</a>
+                    <a href={"Center"}>Center</a>
+                    <a href={"Settings"}>Settings</a>
+                </div>
                 <body>
                 <center>
                     <h2>Book time</h2>

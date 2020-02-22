@@ -1,8 +1,9 @@
 import React, {Component} from 'react'
+import NavBar from "../Components/NavBar";
 export default class LoginTrainer extends Component {
     render() {
         return (
-            <>
+            <>   <NavBar/>
                 <body>
 
                 <form>

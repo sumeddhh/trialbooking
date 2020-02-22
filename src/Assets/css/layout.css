@@ -1,11 +1,30 @@
 body, html{
-    height: 100%;
-    min-height: 100vh;
+    min-height: 99vh;
     margin: 0;
     color: #fff;
     font-family: 'Calibri' ;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: navy;
+    border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #5160bd;
+}
 a{
     color: #fff;
     text-decoration: none;
@@ -20,11 +39,16 @@ a.logo{
 }
 main{
     background-image: url('../images/userbg.png');
-
+    overflow: hidden;
 }
 body.Login{
     background-size: cover;
     background-repeat: no-repeat;
+}
+body.db{
+    background-color: #4b54da;
+    overflow: hidden;
+    min-height: 100vh;
 }
 body.TrainerLogin{
     background-image: url('../images/trainerbg.png');
@@ -155,3 +179,58 @@ th{
 }
 tr:nth-child(even) {background: #3f84b5; color:white;}
 tr:nth-child(odd) {background: #7cb8cb; color:white;}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #272d75;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    margin-top: 120px;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 22px;
+    color: ghostwhite;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main2{
+    font-size: 1.2em;
+    margin-left: 350px; /* Same as the width of the sidenav */
+}
+img{
+    transition: 0.6s;
+}
+img.img1{
+    background-image: url("../../Assets/images/buddha.jpg");
+    height: 240px;
+    width: 500px;
+    border-radius: 20px;
+}
+img.img2{
+    background-image: url("../../Assets/images/Lumbini.jpg");
+    height: 240px;
+    width: 500px;
+    border-radius: 20px;
+}
+img.img3{
+    background-image: url("../../Assets/images/sagarmatha.jpg");
+    height: 240px;
+    border-radius: 20px;
+    width: 500px;
+}
+img:hover{
+    transform: scale(1.09,1.09);
+    transition: 0.6s;
+}
