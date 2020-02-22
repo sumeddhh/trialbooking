@@ -4,7 +4,6 @@ export default class LoginTrainer extends Component {
         return (
             <>
                 <body>
-
                 <form>
                     <div className="container">
                         <label htmlFor="email">Training Center E-Mail</label><br/>

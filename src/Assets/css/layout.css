@@ -7,6 +7,7 @@ body, html{
 }
 
 a{
+
     color: #fff;
     text-decoration: none;
 }
@@ -16,11 +17,15 @@ a.logo{
     font-size: 3rem;
     padding: 30px;
     color:white;
+
+}
+
+body.Login{
+    background-image: url('../images/userbg.png');
     font-family: "Lobster";
 }
 main{
     background-image: url('../images/userbg.png');
-
 }
 body.Login{
     background-size: cover;
@@ -58,7 +63,7 @@ nav ul li a{
 }
 a.trainer{
     font-size: 0.7em;
-    color:#3f84b5;
+
     text-align: center;
 }
 form{
@@ -71,6 +76,7 @@ form{
     font-size: 1.4em;
 
 }
+
 form.signup{
     padding:20px;
     margin-left:35%;
@@ -86,6 +92,7 @@ h2{
 }
 button {
     background-color: #2764a4;
+
     color: white;
     padding: 14px 20px;
     border: none;
@@ -99,6 +106,13 @@ button {
 }
 button:hover{
     transition: 0.7s;
+
+    background-color: #ff99ab;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 28px 0;
     background-color: #3f84b5;
     color:white;
 }
