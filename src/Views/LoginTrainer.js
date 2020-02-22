@@ -20,7 +20,7 @@ export default class LoginTrainer extends Component {
                         <label htmlFor="psw">Password</label><br/>
                         <input type="password" placeholder="Enter Password" name="psw" required/>
                         <button type="submit">Login</button><br/>
-                        <center><a class={"trainer"}>Login as trainer</a></center>
+                        <center><a class={"trainer"} href={"login"}>Login as trainer</a></center>
                     </div>
                 </form>
                 </body>
