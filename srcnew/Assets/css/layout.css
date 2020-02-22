@@ -1,0 +1,96 @@
+body, html{
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: 'Calibri' ;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a.logo{
+    margin-top: -1.8%;
+    font-size: 3rem;
+    padding: 30px;
+    color:white;
+}
+
+body.Login{
+    background-image: url('../images/userbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body.TrainerLogin{
+    background-image: url('../images/trainerbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body.SignUp{
+    background-image: url('../images/signup.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    padding: 30px;
+    font-family: 'Nunito';
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+    font-size: 1.6rem;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: #000;
+    padding: 0 30px;
+}
+a.trainer{
+    font-size: 0.7em;
+    text-align: center;
+}
+form{
+    padding: 20px;
+    margin-left:35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    background-color: white;
+    color: black;
+    font-size: 1.4em;
+
+}
+button {
+    background-color: #9e2930;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.7em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 34%;
+    width: 30%;
+    transition: 0.7s;
+}
+button:hover{
+    transition: 0.7s;
+    background-color: #ff99ab;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 28px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 0.7em;
+    box-shadow: 4px 2px 5px 1px #eee;
+}
