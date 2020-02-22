@@ -1,9 +1,11 @@
+
 import React ,{useState}from 'react';
 import './App.css';
 import './Assets/css/layout.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Login from "./Views/Login";
 import LoginTrainer from "./Views/LoginTrainer";
+
 import axios from 'axios';
 import jwtDecode from 'jwt-decode';
 import PropTypes from 'prop-types';
