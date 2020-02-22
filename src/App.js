@@ -9,6 +9,7 @@ import SignUp from "./Views/SignUp";
 import Booking from "./Views/Booking";
 import NavBar from "./Components/NavBar";
 import DashBoard from "./Views/DashBoard";
+import Center from "./Views/Center";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/signup" exact component={SignUp}></Route>
           <Route path="/booking" exact component={Booking}></Route>
           <Route path="/DashBoard" exact component={DashBoard}></Route>
+          <Route path="/Center" exact component={Center}></Route>
         </Router>
           </main>
   );
